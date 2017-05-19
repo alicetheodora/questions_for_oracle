@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alina.myapplication.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/score"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_width="299dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="60dp"
+        android:text="TextView" />
+
+    <Button
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="320dp"
+        android:id="@+id/answer1"
+        android:gravity="center"
+        android:layout_width="264dp"
+        android:layout_height="59dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/answer2"
+        android:layout_width="264dp"
+        android:gravity="center"
+        android:layout_height="59dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="390dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/answer3"
+        android:layout_width="265dp"
+        android:layout_height="59dp"
+        android:gravity="center"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="460dp"
+        android:text="Button" />
+
+
+
+    <Button
+        android:id="@+id/answer4"
+        android:layout_width="267dp"
+        android:layout_height="59dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="530dp"
+        android:gravity="center"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="299dp"
+        android:layout_height="177dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="20dp" />
+
+
+</android.support.design.widget.CoordinatorLayout>
